@@ -1,0 +1,80 @@
+Made a new skip list of height ten!
+->-inf
+
+
+Inserting 10 at 1 layer.
+Inserted 10!
+->-inf->10
+
+
+Inserting 10 at 2 layers.
+Inserted 10!
+->-inf->10
+
+->-inf->10->10
+
+
+Inserting 15 at 3 layers.
+Inserted 15!
+->-inf-->15
+
+->-inf->10-->15
+
+->-inf->10->10-->15
+
+
+Inserting 8 at 1 layer.
+Inserted 8!
+->-inf--->15
+
+->-inf->10--->15
+
+->-inf->8->10->10--->15
+
+
+Inserting 2 at 1 layer.
+Inserted 2!
+->-inf---->15
+
+->-inf-->10---->15
+
+->-inf->2->8-->10-->10---->15
+
+
+Inserting 5 at 7 layers.
+Inserted 5!
+->-inf->5
+
+->-inf->5
+
+->-inf->5
+
+->-inf->5
+
+->-inf->5----->15
+
+->-inf->5--->10----->15
+
+->-inf->2->5-->8--->10--->10----->15
+
+
+Deted 8! 
+->-inf->5
+
+->-inf->5
+
+->-inf->5
+
+->-inf->5
+
+->-inf->5---->15
+
+->-inf->5-->10---->15
+
+->-inf->2->5-->10-->10---->15
+
+
+Looked up 80 and found: null
+
+Looked up 5 and found: SNode@5fa7e7ff containing value 5
+
